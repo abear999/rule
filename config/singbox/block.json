@@ -4,9 +4,6 @@
     {
       "domain_suffix": [
         "amazon-adsystem.com"
-      ],
-      "protocol": [
-        "quic"
       ]
     }
   ]
