@@ -2,20 +2,6 @@
   "version": 2,
   "rules": [
     {
-      "port": [
-        123,
-        9993,
-        3389,
-        5900
-      ],
-      "port_range": [
-        "30000:"
-      ],
-      "domain_keyword": [
-        "announce",
-        "torrent",
-        "tracker"
-      ],
       "domain_suffix": [
         "katruna.com",
         "abear.xyz",
