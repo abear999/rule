@@ -130,6 +130,10 @@
         "uhdbits.org",
         "xauat6.edu.cn"
       ],
+      "domain": [
+        "dynamicdns.park-your-domain.com",
+        "api.cloudflare.com"
+      ],
       "ip_cidr": [
         "45.79.75.221",
         "185.125.190.0/24",
