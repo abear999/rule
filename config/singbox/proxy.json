@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "sis001.com"
+      ],
+      "domain_keyword": [
+        "sis001"
+      ]
+    }
+  ]
+}
