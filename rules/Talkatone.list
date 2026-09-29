@@ -1,1 +1,72 @@
+# Talkatone NoAD RuleSet 开始
+# 图片类广告资源 (REJECT-TINYGIF)
+host-suffix, cdn.mobilefuse.com, reject
+host-suffix, cdn2.inner-active.mobi, reject
+host-suffix, cdn-f.adsmoloco.com, reject
+host-suffix, impression.link, reject
+host-suffix, impression-asia.liftoff.io, reject
+host-suffix, wv.inner-active.mobi, reject
+# API接口类请求 (REJECT-200)
+host-suffix, ads.pubmatic.com, reject
+host-suffix, amazon-adsystem.com, reject
+host-suffix, app-analytics-services.com, reject
+host-suffix, appier.net, reject
+host-suffix, appiersig.com, reject
+host-suffix, ads.inmobi.com, reject
+host-suffix, bidder.criteo.com, reject
+host-suffix, config.inmobi.com, reject
+host-suffix, cr.adsappier.com, reject
+host-suffix, ets-ap-southeast-1.track.smaato.net, reject
+host-suffix, exchange-b-events.inner-active.mobi, reject
+host-suffix, ins.track.tappx.com, reject
+host-suffix, mfx.mobilefuse.com, reject
+host-suffix, sdk-dnt.ad.smaato.net, reject
+host-suffix, sdk-files.smaato.net, reject
+host-suffix, sdk-hb-cfg.smaato.net, reject
+host-suffix, ssp.api.tappx.com, reject
+host-suffix, tappx.com, reject
+host-suffix, view.adjust.com, reject
+# 完全阻止的請求 (REJECT-DROP)
+host-keyword, googleads, reject
+host-suffix, googleads.g.doubleclick.net, reject
+host-suffix, googleads.g.doubleclick-cn.net, reject
+host-suffix, lh3.googleadsserving.cn, reject
+host-suffix, pagead2.googlesyndication-cn.com, reject
+host-suffix, pubmatic.com, reject
+host-suffix, smaato.net, reject
+host-suffix, criteo.com, reject
+host-suffix, au.w.inmobi.com, reject
+# # NoAD Rules Ends
 
+# # Proxy
+# tktn.be 域名代理 Proxy
+host-suffix, talkatone.com, proxy
+host-suffix, agkn.com, proxy
+host-suffix, tenor.com, proxy
+host-suffix, tktn.at, proxy
+host-suffix, tktn.be, proxy
+# host-suffix, cohere.com, proxy
+# host-suffix, ip-api.com, proxy
+#
+# Following domians just Direct to connect 以下域名直連
+host-suffix, inner-active.mobi, direct
+host-suffix, crashlytics.com, direct
+host-suffix, mobilefuse.com, direct
+host-suffix, inmobi.com, direct
+host-suffix, kochava.com, direct
+
+# IPCIDR
+# Proxy
+ip-cidr, 216.172.154.0/24, proxy, no-resolve
+ip-cidr, 23.19.73.39/32, proxy, no-resolve
+ip-cidr, 34.120.13.18/32, proxy, no-resolve
+ip-cidr, 23.253.145.244/32, proxy, no-resolve
+ip-cidr, 23.235.228.136/29, proxy, no-resolve
+ip-cidr, 72.18.158.120/29, proxy, no-resolve
+# Direct
+ip-cidr, 205.164.56.0/24, direct, no-resolve
+ip-cidr, 50.117.27.0/24, direct, no-resolve
+ip-cidr, 63.251.124.0/24, direct, no-resolve
+ip-cidr, 69.46.75.0/24, direct, no-resolve
+# ip-cidr, 205.164.56.29/24, direct, no-resolve
+# Talkatone NoAD RuleSet 结束
